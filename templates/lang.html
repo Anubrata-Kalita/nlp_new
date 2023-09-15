@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <body>
+        
+        <form action='/lang' method='POST'>
+            <textarea rows='5'columns='100' name='english_text'></textarea><br>
+            <form action="/submit" method="post">
+                <label for="language">Choose a language:</label>
+                <select id="sel_lang" name="selected_lang">
+                  <option value="hindi">Hindi</option>
+                  <option value="bengali">Bengali</option>
+                  <option value="french">French</option>
+                </select>
+                <br>
+                <input type="submit" value="Translate"><br>
+              </form>
+              
+
+           
+        Translated_text= {{output}}     
+        
+        </form>
+        
+        
+        
+    </body>
+
+
+
+
+
+    
+
+</html>
